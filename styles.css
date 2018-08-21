@@ -1,0 +1,1021 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,500,800');
+
+a {
+text-decoration: none!important;
+font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: bold!important;
+    font-family: 'Lato', sans-serif;
+}
+
+span {
+color: #F7A938;
+}
+
+
+.hrclass {
+
+    border: 2px solid #fff!important;
+    margin: 101px 0px!important;
+
+}
+
+.topbar {
+background-color: #343434;
+width:100%;
+height:27px;
+padding:0px 30px 0px 0px;
+z-index: 4;
+position: relative;
+
+}
+
+li, .blwhite{
+display: inline-block;
+	float: right;
+}
+
+.tblink {
+	color:#fff!important;
+	font-weight: 200;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none!important;
+}
+
+
+.tblink:hover {
+opacity: 0.4;
+    transition: 0.9s;
+}
+
+.social1, .social2, .social3, .social4	{
+padding: 3px 5px 0px 0px;
+
+}
+.tickets, .shop, .mic {
+	padding: 3px 50px 0px 0px;
+		
+	}
+
+.icn-topbar {
+    padding-right: 8px;
+}
+
+.fab:hover {
+    opacity: 0.7;
+    transition: 0.9s;
+
+}
+
+.fa-facebook-f {
+padding: 4px 7px 4px 7px;
+border-radius: 100px;
+font-size: 12px;
+color:#343434;
+background:#fff;
+	
+}
+	
+.fa-youtube	{
+padding: 4px 3px 4px 4px;
+border-radius: 100px;
+font-size: 12px;
+color:#343434;
+background:#fff;
+}
+
+.fa-instagram, fa-linkedin-in {
+padding: 4px 4px 4px 5px;
+border-radius: 100px;
+font-size: 12px;
+color:#343434;
+background:#fff;
+}	
+
+.fa-linkedin-in {
+padding: 4px 4px 4px 5px;
+border-radius: 100px;
+font-size: 12px;
+color:#343434;
+background:#fff;
+}	
+
+.navbar {
+	height: 66px;
+	z-index: 2;
+	}
+
+.nav-buttons {
+    padding: 15px 25px 15px 25px;
+     
+}
+
+.navigation {
+
+	padding: 10px 35px 0px 0px;
+}
+
+.navsep {
+	border-right: 1px solid #D8D8D7;
+     transform: rotate(20deg);
+     height: 46px;
+ }
+
+.navtext {
+	color:#343434;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.mobnavb {
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 22px;
+}
+
+.logobox {
+float: left;
+margin: -23px 0px 0px -55px;
+}
+
+.navtext:hover{
+color:#F7A938;	
+transition: 0.9s;
+}
+
+.mobnavb:hover{
+color:#F7A938;  
+transition: 0.9s;
+}
+
+.bnavs {
+
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.header{
+	max-width:1366px;
+	
+}
+
+.w3-content.w3-display-container {
+    position: relative;
+    top: -65px;
+    z-index: 1;
+}
+
+/*Rotator*/
+
+.mySlides {
+	display:none
+}
+
+.w3-badge 
+{height:13px;width:13px;padding:0
+}
+
+.w3-right {
+    float: right !important;
+    margin-top: -19%;
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer;
+}
+
+.w3-left {
+    float: left !important;
+    margin-top: -19%;
+}
+
+.w3-border {
+    border: 1px solid #fff !important;
+
+    }
+
+    .w3-badge {
+    border-radius: 50%;
+    display: inline-block;
+    padding: 7px!important;
+    text-align: center;
+}
+    .w3-tag {
+    	padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    }
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+}
+
+
+.w3-white, .w3-hover-white:hover {
+    color: #000 !important;
+    background-color: #F7A938  !important;
+}
+
+.w3-large {
+    font-size: 40px !important;
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+    padding: 0.01em 16px;
+margin-top: -65px;
+position: absolute;
+}
+
+.boolets {
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.w3-left.w3-hover-text-khaki, .w3-right.w3-hover-text-khaki {
+	color:#fff!important;
+}
+
+.w3-left.w3-hover-text-khaki:hover, .w3-right.w3-hover-text-khaki:hover {
+	color:#F7A938!important;
+	transition: 0.9s;
+
+}
+/*End of rotator*/
+
+/*Header overlay*/
+.news{
+float: right;
+margin-top: -42.5%;
+position: relative;
+color: #fff;
+background: #9BB9DF;
+padding: 10px 15px;
+border-right: 4px solid #F7A938;
+}
+
+.news, .rche, .nowrap :hover{
+	color: #343434;
+	transition: 0.9s;
+}
+.match-rep:hover {
+    color:#fff;
+    transition: 0.9s;
+}
+
+.imglink:hover {
+opacity: 0.7;
+    transition: 0.9s;
+}
+
+.ftblbox {
+
+    max-width: 477px;
+    background: rgba(255, 255, 255, 0.91);
+    position: relative;
+    border-right: 10px solid #F7A938;
+    padding: 10px 20px 23px;
+    top: -428px;
+    z-index: 2;
+
+}
+
+.bline{
+    height: :5px!important;
+    width:100%;
+    background: #383E4C;
+}
+
+.football-league, .match-rep {
+    font-weight: bold;
+}
+
+.match-rep {
+    color:#f7a938;
+}
+
+.meetsquad {
+    color: #284591;
+    font-weight: bold;
+}
+
+.readmn {
+    color: #284591;
+    font-weight: bold;
+    float: right;
+}
+.bheaderbox{
+	width: 100%;
+	margin-top: -65px;
+    background: #383E4C;
+    }
+
+.bhbsmall {
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -15px;
+    margin: 0% 6% 0% 6%;
+    align-items: center;
+    margin: 0px 12%;
+
+}
+
+.bigbox{
+max-width: 1896px;
+margin: auto;
+}
+
+.sixth{
+margin-left: 2%;
+}
+
+.first, .third,  .fifth, .sixth {
+    margin-top: 6%;
+
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.cheaa {
+    padding: 10px;
+background: #F7A938;
+color: #fff;
+margin-left: 10px;
+}
+
+.tinfo {
+    background: #fff;
+    padding: 0px 0px 0px 17px
+}
+
+.second, .forth {
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.UFIXTURE {
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.UFIXTURE_A{
+color:#fff;
+    font-weight: bold;    
+}
+
+.versus {
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.wtext{
+    color: #fff;
+}
+
+.latestn {
+font-weight: bold;    
+border-left: 5px solid #f7a938;
+padding-left: 20px;
+margin-bottom: 20px;
+}
+
+.bbox{
+    width: 90%;
+    margin:auto;
+    margin-top: -120px;
+}
+
+.bbox2{
+    width: 90%;
+    margin:auto;
+
+    
+}
+
+.abovethree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.abovefour {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.col1, .col2, .col3 {
+width:30%;
+}
+
+.timage {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.stext {
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #676767;
+}
+
+.ctext {
+   text-align: center; 
+}
+
+.stext2{
+color: #676767;
+text-align: center;
+
+}
+
+.backimage {
+ background-image: url("https://raw.githubusercontent.com/iordanisch/piranhadesigns/master/Header.jpg");
+    background-color: #fff;
+height: 775px;
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+background-position: top center;
+}
+
+.readbox {
+    margin-bottom: 60px;
+}
+
+.slogo {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.borderhe {
+border-left: 5px solid #F7A938;
+color:#fff;
+font-weight: bold;
+padding-left: 15px;
+}
+
+.logosmall {
+    width: 90px;
+}
+
+.domestic-fix {
+position: relative;
+top: 30px;
+margin-left: 42px;
+height: 774px;
+}
+
+.domestic-fixb {
+position: relative;
+margin-left: 42px;
+margin-top: -58px;
+}
+
+.btext {
+    font-weight: bold;
+}
+
+.fboxi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fboxi1, .fboxi2, .fboxi3, .fboxi4 {
+    flex: 1;
+
+}
+.bborder{
+    border-left:1px solid #fff;
+    margin-right: 6%;
+margin-left: 2%;
+height:162px;
+}
+
+.rcha {
+float:right;
+padding: 14px;
+background:#f7a938;
+}
+
+.tilebox {
+ background-image: url("https://github.com/iordanisch/piranhadesigns/blob/master/white-stripes.jpg?raw=true");
+    background-color: #fff;
+    background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+background-position: top center;
+}
+
+.doubleback {
+ background-image: url("https://raw.githubusercontent.com/iordanisch/piranhadesigns/master/alvaro-mendoza-adasdasdasd.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+background-size: 100%;
+height: 610px;
+background-attachment: fixed;
+background-position: top center;
+border-left: 10px solid #f7a938;
+}
+
+.tbox{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+    position: relative;
+top: 60px;
+}
+
+.double{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doublebox{
+    width: 90%;
+    margin:auto;
+    padding: 86px 0px;
+}
+
+.video {
+
+    width: 490px;
+height: 440px;
+
+}
+
+.tinfob {
+
+    background: #fff;
+    padding: 0px 0px 0px 17px;
+    width: 205px;
+    margin-top: 40px;
+   }
+.multylogobox {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+margin: auto;
+}
+
+.bigfoot {
+ background-image: url("https://raw.githubusercontent.com/iordanisch/piranhadesigns/master/dark-stripes.jpg");
+    background-color: #343434;
+    background-repeat: no-repeat;
+height: 335px;
+background-size: 100%;
+}
+
+.footerflex3 {
+    width: 48%
+    }
+.footerflex2, .footerflex4 {
+width: 25%
+}
+.quick {
+    font-size: 24px;
+}
+
+.fsocial {
+    font-size: 22px;
+}
+
+.flogo {
+    width: 130px;
+
+}
+.hflogo {
+
+}
+
+.inflex {
+    display: flex;
+    align-content: space-between;
+    
+}
+
+.inflexf{
+    width:30%;
+}
+
+.footerbox {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ulalign {
+float: left;
+    margin-left: -40px;
+}
+
+.social1a, .social2a, .social3a, .social4a {
+margin-right: 15px;
+
+}
+
+.fivelogos{
+    margin: 0px 25px
+}
+
+.social1a {
+
+    padding: 3px 4px;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #343434;
+    background: #fff;
+
+}
+
+
+.social2a {
+
+    padding: 3px 2px;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #343434;
+    background: #fff;
+
+}
+
+
+.social3a {
+
+    padding: 3px 4px;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #343434;
+    background: #fff;
+
+}
+.social4a {
+
+    padding: 3px 6px;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #343434;
+    background: #fff;
+
+}
+
+.lbox, .vlbox {
+
+    max-width: 95%;
+    margin:-4px auto;
+
+}
+
+.fqbx {
+    display: none;
+    }
+
+.intext{
+    display: inline-block;
+}
+
+.vltext {
+    float:right;
+}
+
+.fhr{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    border-top: 1px solid #eee;
+    
+}
+
+.mob-1stbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.tcenter {
+text-align: center;
+}
+
+
+.bhbsmall-mob {
+
+    position: relative;
+    top: 60px;
+display: none;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+.w3-bar-item.w3-button.w3-xxxlarge.w3-hover-theme {
+    background: none!important;
+    border: none!important;
+    font-size: 25px!important;
+    color: #fff!important;
+    margin: 12px!important;
+}
+
+.mobmenutop {
+    background: #383E4C;
+    padding-bottom:35px;
+    display: none;
+}
+
+.mob-backimg {
+    background: #383E4C;
+}
+
+.lastf{
+padding-bottom: 50px;
+}
+
+.mob-backimg, .hflogo {
+    display: none;
+}
+
+.dino {
+    display: none;
+}
+/*Responsive*/
+
+@media (max-width:1116px) {
+
+.w3-content.w3-display-container {
+    margin-top: 112px;
+    z-index: 1;
+}
+}
+
+@media (max-width:690px) {
+
+.w3-content.w3-display-container {
+    margin-top: 162px;
+    z-index: 1;
+}
+.mob-backimg {
+    display: block;
+}
+
+}
+
+
+@media (max-width:996px) {
+	.ftblbox{
+		display:none;
+	}
+
+    .bbox{
+    width: 90%;
+    margin:auto;
+    margin-top: 0px;
+}
+}
+
+@media (max-width:1016px) {
+
+.hrclass {
+    border: 2px solid #fff !important;
+    margin: 25px 0px 73px !important;
+}
+}
+
+@media (max-width:870px) {
+
+.double {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.video {
+    width: 100%;
+    height: 300px;
+}
+.fboxi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+}
+.bhbsmall {
+    display: none;
+}
+
+.bhbsmall-mob {
+margin-top: -85px;
+background: none;
+height: 530px;
+display: block;
+}
+
+.tinfo {
+    text-align: center;
+    width: 165px;
+
+margin: auto;
+}
+}
+
+@media (max-width:670px) {
+
+
+.bigbox, .navbar, .topbar, .domestic-fix, .qbox, .vlbox {
+    display: none;
+}
+
+
+.bheaderbox{
+    width: 100%;
+    margin-top: -80px;
+    background: #383E4C;
+    height: 444px;
+}
+.abovethree, .tbox, .abovefour, .fqbx {
+    display: block;
+    }
+
+.footerbox {
+    display: block;
+    text-align: center;
+}
+
+.footerflex2, .footerflex3, .footerflex4 {
+width:100%;
+}
+
+.video {
+    width: 100%;
+    height: 250px;
+}
+
+.col1, .col2, .col3 {
+width:100%;
+}
+.backimage {
+ background-image: none;
+    background:#383E4C;
+
+}
+
+.mobmenu {
+    display: none;
+}    
+.bhbsmall-mob {
+
+    margin-top: -85px;
+    background: #383E4C;
+    height: 439px;
+    display: block;
+
+}
+.slogo {
+
+    display: inline-block;
+    margin-bottom: 0px;
+
+}
+
+.mobmenutop {
+    background: #383E4C;
+    padding-bottom:35px;
+    display: block;
+}
+
+.bbox{
+margin-top: 215px;
+}
+
+.fboxi1{
+    text-align: center;
+
+}
+.fboxi1, .fboxi2, .fboxi3, .fboxi4 {
+    flex: 1;
+margin-top:50px;
+}
+
+.tilebox {
+ background-image: none;
+    background-color: #fff;
+ }
+
+
+.doubleback {
+ background-image: none;
+    background-color: #383E4C;
+    border-left: 10px solid #f7a938;
+    height:513px;
+}
+
+.doublebox {
+        padding: 6px 0px;
+}
+
+.fa-instagram {
+    padding: 9px 10px 7px 10px;
+    border-radius: 100px;
+    font-size: 22px;
+    color: #343434;
+    background: #fff;
+}
+.fa-youtube {
+    padding: 9px 7px 8px 7px;
+    border-radius: 100px;
+    font-size: 22px;
+    color: #343434;
+    background: #fff;
+}
+
+.fa-linkedin-in{
+    padding: 9px 9px 7px 9px;
+    border-radius: 100px;
+    font-size: 22px;
+    color: #343434;
+    background: #fff;
+}
+
+.fa-facebook-f {
+    padding: 9px 13px 7px 13px;
+    border-radius: 100px;
+    font-size: 22px;
+    color: #343434;
+    background: #fff;
+}
+
+.flogo {
+
+    width: 130px;
+    margin: auto;
+
+}
+
+.hflogo{
+margin: 36px auto;
+width: 228px;
+}
+.fsocial {
+
+    margin: 10px;
+
+}
+
+.bigfoot{
+height: 730px;   
+}
+.multylogobox {
+    display: block;
+    width: 80%;
+margin: auto;
+}
+.fivelogos, .lclass{
+    margin:auto;
+}
+.ftinfob {
+    margin: 40px auto;
+    width: 122px;
+    background: #fff;
+    padding: 0px 0px 0px 17px;
+   }
+.quick {
+    margin: 20px 0px;
+}
+
+}
